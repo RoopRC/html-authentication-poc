@@ -1,101 +1,96 @@
-# HTML Authentication POC – Assignment 2 (CampusPe)
+# Authentication System Styling (Bootstrap)
 
-## 📌 Project Overview
-This project is a **Proof of Concept (POC)** for a basic authentication system created as part of **Assignment 2 for CampusPe**.  
-The goal of this assignment is to design multiple interconnected web pages using **only HTML**, focusing on page navigation and structure without using CSS or JavaScript.
+## Assignment Information
 
----
+**Course:** Full Stack Java Development
+**Mentor:** Jacob Dennis
+**Institution:** CampusPe
 
-## 🎯 Assignment Objective
-- Create a simple authentication flow
-- Implement redirections between pages using HTML only
-- Understand basic form structure and anchor-based navigation
-- Push the complete project to a **public GitHub repository**
+**Assignment:** Authentication System Styling using Bootstrap
+
+**Student Name:** Roopa Chinchewadi
 
 ---
 
-## 📂 Pages Included
-The project consists of the following **five HTML pages**:
+# Project Description
 
-1. **login.html**
-   - Username and password fields
-   - Login button redirects to Dashboard
-   - Links to Register and Forgot Password pages
+This assignment implements a **responsive authentication system interface** using **HTML, CSS, JavaScript, and Bootstrap 5**.
 
-2. **register.html**
-   - Email ID, Phone Number
-   - Password and Confirm Password fields
-   - Register button redirects to Login page
-   - Link for users who already have an account
+The project includes multiple authentication-related pages styled using Bootstrap components and custom CSS.
 
-3. **forgot-password.html**
-   - Email ID input
-   - Send Password Reset Link button
-   - Redirects to Login page
-
-4. **reset-password.html**
-   - New Password and Confirm Password fields
-   - Update Password button redirects to Login page
-
-5. **dashboard.html**
-   - Welcome message
-   - Logout button redirects to Login page
+The objective of this assignment is to practice **Bootstrap styling, responsive layouts, and UI enhancements** for an authentication system.
 
 ---
 
-## 🔁 Navigation Flow
-- Login → Dashboard
-- Dashboard → Logout → Login
-- Login → Register → Login
-- Login → Forgot Password → Login
-- Reset Password → Login
+# Technologies Used
 
-All redirections are handled using **HTML form actions and anchor tags**.
-
----
-
-## 🛠️ Technologies Used
-- HTML5 only
-- No CSS
-- No JavaScript
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap 5
+* Bootstrap Icons
+* Google Fonts (Poppins)
 
 ---
 
-## 📁 Project Structure
-html-authentication-poc/
+# Project Pages
+
+The project includes the following pages:
+
+* **Login Page** – Allows users to enter email and password.
+* **Registration Page** – Allows users to create a new account.
+* **Forgot Password Page** – Allows users to request a password reset.
+* **Reset Password Page** – Allows users to create a new password.
+* **Dashboard Page** – Displays a simple user dashboard after login.
+
+---
+
+# Features Implemented
+
+* Bootstrap styled UI
+* Responsive layout using Bootstrap grid
+* Custom CSS styling
+* Navigation links between authentication pages
+* Form input fields for authentication
+
+---
+
+# Bonus Features Implemented
+
+| Feature                         | Points |
+| ------------------------------- | ------ |
+| Password Strength Indicator     | +5     |
+| Show / Hide Password Toggle     | +3     |
+| Custom Form Validation          | +5     |
+| Loading Spinner on Button Click | +3     |
+| Dark Mode Toggle                | +7     |
+| Animated Page Transitions       | +5     |
+
+**Maximum Bonus Points Implemented: +28**
+
+---
+
+# Project Structure
+
+```
+html-authentication-poc
 │
-├── login.html
+├── index.html
 ├── register.html
 ├── forgot-password.html
 ├── reset-password.html
 ├── dashboard.html
+│
+├── styles.css
+├── script.js
+│
 └── README.md
-
-
----
-
-## ✅ Assignment Rules Followed
-- Created all 5 required HTML pages
-- Used only HTML for navigation
-- No styling or scripting added
-- Proper redirections implemented
-- Code pushed to a https://github.com/RoopRC/html-authentication-poc.git
+```
 
 ---
 
-## 🧪 Testing
-All pages were manually tested in the browser to ensure:
-- Correct redirection between pages
-- Proper working of links and form submissions
+# Submission Repository
 
----
+GitHub Repository Link:
 
-## 📌 Author
-Name: ROOPA CHINCHEWADI  
-Assignment: HTML Authentication POC 
-Organization: CampusPe
-
----
-
-## 🔗https://github.com/RoopRC/html-authentication-poc.git
-Repository link submitted on LMS as per instructions.
+https://github.com/RoopRC/html-authentication-poc

@@ -3,7 +3,9 @@
 ## Assignment Information
 
 **Course:** Full Stack Java Development
+
 **Mentor:** Jacob Dennis
+
 **Institution:** CampusPe
 
 **Assignment:** Authentication System Styling using Bootstrap

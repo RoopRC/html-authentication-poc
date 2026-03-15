@@ -75,6 +75,7 @@ The project includes the following pages:
 # Project Structure
 
 ```
+📂 Project Structure
 html-authentication-poc
 │
 ├── index.html
@@ -86,7 +87,15 @@ html-authentication-poc
 ├── styles.css
 ├── script.js
 │
-└── README.md
+├── README.md
+│
+└── screenshots
+    ├── login.png
+    ├── register.png
+    ├── forgot-password.png
+    ├── reset-password.png
+    └── dashboard.png
+
 ```
 
 ---
